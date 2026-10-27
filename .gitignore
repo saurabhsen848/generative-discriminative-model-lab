@@ -1,0 +1,13 @@
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+data/
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Trained model weights are required by the deployed application; keep them tracked.
